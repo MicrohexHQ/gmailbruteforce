@@ -7,7 +7,7 @@ Python Gmail Bruteforce Tool
 [ - ]Usage:
 Python gmailbrute.py /path/to/file target@gmail.com
 
-[ - ) For "Legal" and "Ethical" Use Only
+[ - ] For "Legal" and "Ethical" Use Only
 
 [ - ]Use The Provided John The Ripper Text File For Passwords Or Get Your Own
 
